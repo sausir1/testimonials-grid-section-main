@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](Screenshot%202021-08-04%20at%2014-05-27%20Frontend%20Mentor%20Testimonials%20grid%20section.png)
+![Screenshot](Screenshot%202021-08-04%20at%2014-26-57%20Frontend%20Mentor%20Testimonials%20grid%20section.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You 
 can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.

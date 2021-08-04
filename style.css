@@ -16,7 +16,8 @@
 body {
   min-width: 100vw;
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   background-color: var(--neutral-blue);
@@ -25,6 +26,7 @@ body {
   font-size: 13px;
 }
 .container {
+  box-shadow: 10px 40px 35px 10px rgba(0, 0, 0, 0.1);
   display: grid;
   max-width: 1100px;
   grid-template-columns: repeat(4, 1fr);
@@ -100,4 +102,16 @@ body {
   right: 10%;
   width: 100px;
   height: 100px;
+}
+
+@media all and (max-width: 900px) {
+  .container {
+    margin: 1rem 0.25rem;
+    grid-template-columns: 1fr;
+  }
+  .container > * {
+    grid-row: unset;
+    grid-column: unset;
+    margin-top: 0.5rem;
+  }
 }
